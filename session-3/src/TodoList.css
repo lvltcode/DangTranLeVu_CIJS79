@@ -1,0 +1,21 @@
+.inputTask {
+
+    border : 0px solid #393939;
+
+    border-bottom-width : 2px;
+
+    background-color : transparent;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+
+  row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
