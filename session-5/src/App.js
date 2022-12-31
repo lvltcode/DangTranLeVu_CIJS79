@@ -18,9 +18,9 @@ function App() {
     <div className="flex flex-col flex-center items-center mt-4">
      <button onClick={changeLight}> Next</button>
       <div className="flex flex-center items-center">
-        <Light color="red" LightOn={currentLight === "red" ? "red" : ""}/>
-        <Light color="yellow" LightOn={currentLight === "yellow" ? "yellow" : ""}/>
-        <Light color="green" LightOn={currentLight === "green" ? "green" : ""}/>
+        <Light color="red" lightOn={currentLight === "red" ? "red" : ""}/>
+        <Light color="yellow" lightOn={currentLight === "yellow" ? "yellow" : ""}/>
+        <Light color="green" lightOn={currentLight === "green" ? "green" : ""}/>
       </div>
     </div>
   );
