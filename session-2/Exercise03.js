@@ -15,13 +15,18 @@ function countingElement(inputArray) {
     return counterObj
 }
 
-function findingMaxObj(inputCounterObj){
-    let maxObj = inputCounterObj.filter()
+function findingMaxObj(inputCounterObj){ 
+    let valuesOfObj = Object.values(inputCounterObj);
+    let maxObj = inputCounterObj.filter(element, index => {
+        if (Object.values(element) === Math.max(...valuesOfObj)) {
+            
+        }
+    });
 }
 
 
 const myArray = [false, 24, "English", false, "english", 22, 19, false, "English", 19];
-let countObj = countingElement(myArray);
+// let countObj = countingElement(myArray);
 // console.log(countObj);
 let valuesOfObj = Object.values(countObj);
 console.log(Math.max(...valuesOfObj));
